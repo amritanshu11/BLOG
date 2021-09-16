@@ -1,0 +1,103 @@
+nav h2{
+    width: 140px;
+    color: #212529;
+    padding-left: 45%;
+}
+h3{
+    padding: 5%;
+    text-align: justify;
+}
+body{
+  background-color:#E8ECEF;
+}
+nav{
+    margin-top: 40px;
+    width: 100%;
+display: flex;
+justify-content: space-between;
+position: relative;
+
+}
+nav::after{
+    content: "";
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+    height: 2px;
+    width: 90%;
+    border-bottom: 2px solid gray;
+
+}
+nav ul{
+    margin-top: 28px;
+    margin-right: 30px;
+
+}
+nav ul li {
+    float: left;
+ list-style: none;
+
+}
+nav ul li a{
+ 
+    margin-right: 30px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width: 680px){
+    nav{
+        display: inline-block;
+    }
+    nav h2{
+      padding-left: 30%;
+      text-align: center;
+    }
+    nav ul li  {
+   padding: 5%;
+      
+    }
+
+}
+
+
+.compose{
+    width: 80%;
+    display: block;
+    margin: 70px;
+}
+input{
+    padding: 20px;
+    margin: 20px;
+}
+label{
+    color: #212529;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+textarea{
+    margin-left: 75px;
+}
+button{
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #212529;
+color: #E8ECEF;
+cursor: pointer;
+margin-top: 10px;
+margin-left: 75px;
+}
+.blog{
+    width: 80%;
+    margin: 8%;
+}
+.contact{
+    width: 80%;
+    margin: 8%;
+}
+.about{
+    width: 80%;
+    margin: 8%;
+}
